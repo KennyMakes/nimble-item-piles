@@ -67,21 +67,3 @@ Configure Settings → Item Piles → Configure Module → System Specific Setti
 ```
 
 Then reset or review the system-specific settings after enabling this module.
-
-## Performance and safety notes
-
-This module is intentionally minimal:
-
-- No canvas hooks
-- No scene-wide token scans
-- No actor or token patching
-- No startup world-data migrations
-- No repeated setting writes
-- No intervals or render hooks
-
-All integration is handled through Item Piles' system integration API.
-
-## Current limitations
-
-- This module has been tested against a Nimble world using standard `object` item drops and currency paths.
-- It does not add a custom Item Piles UI.
