@@ -1,0 +1,42 @@
+{
+  "id": "nimble-item-piles",
+  "title": "Nimble Item Piles Support",
+  "description": "Adds Nimble v2 system integration support for the Item Piles module.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "KennyMakes",
+      "url": "https://github.com/KennyMakes"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351",
+    "maximum": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "item-piles",
+        "type": "module",
+        "compatibility": {
+          "minimum": "3.2.8"
+        }
+      }
+    ],
+    "systems": [
+      {
+        "id": "nimble",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/nimble-item-piles.js"
+  ],
+  "url": "https://github.com/KennyMakes/nimble-item-piles",
+  "manifest": "https://github.com/KennyMakes/nimble-item-piles/releases/latest/download/module.json",
+  "download": "https://github.com/KennyMakes/nimble-item-piles/releases/download/v0.1.0/nimble-item-piles.zip",
+  "readme": "https://github.com/KennyMakes/nimble-item-piles/blob/main/README.md",
+  "bugs": "https://github.com/KennyMakes/nimble-item-piles/issues"
+}
